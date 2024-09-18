@@ -1,0 +1,16 @@
+print("Sysguard Injected!")
+wait(0.1)
+print("discord.gg/getfrost")
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Sysguard Injected!",
+    Text = "Injected Sysguard",
+    Icon = "rbxassetid://139675203299998",
+    Duration = 8
+})
+wait(9)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = ".gg/getfrost",
+    Text = ".gg/getfrost",
+    Icon = "rbxassetid://139675203299998",
+    Duration = 8
+})
